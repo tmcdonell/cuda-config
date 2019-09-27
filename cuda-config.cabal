@@ -1,8 +1,8 @@
-name:           cuda-helper
+name:           cuda-config
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/tmcdonell/cuda#readme>
-homepage:       https://github.com/tmcdonell/cuda-helper#readme
-bug-reports:    https://github.com/tmcdonell/cuda-helper/issues
+homepage:       https://github.com/tmcdonell/cuda-config#readme
+bug-reports:    https://github.com/tmcdonell/cuda-config/issues
 author:         Trevor L. McDonell
 maintainer:     Trevor L. McDonell <trevor.mcdonell@gmail.com>
 copyright:      [2019] Trevor L. McDonell
@@ -20,7 +20,7 @@ library
       Foreign.CUDA.Config
 
   other-modules:
-      Paths_cuda_helper
+      Paths_cuda_config
 
   hs-source-dirs:
       src
@@ -39,11 +39,11 @@ library
 
 source-repository head
   type:         git
-  location:     https://github.com/tmcdonell/cuda-helper
+  location:     https://github.com/tmcdonell/cuda-config
 
 source-repository head
   type:         git
-  location:     https://github.com/tmcdonell/cuda-helper
+  location:     https://github.com/tmcdonell/cuda-config
   tag:          v0.1.0.0
 
 -- vim: nospell

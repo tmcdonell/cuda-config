@@ -1,10 +1,10 @@
-cuda-helper
+cuda-config
 ===========
 
-[![Travis build status](https://img.shields.io/travis/tmcdonell/cuda-helper/master.svg?label=linux)](https://travis-ci.org/tmcdonell/cuda-helper)
-[![Stackage LTS](https://stackage.org/package/cuda-helper/badge/lts)](https://stackage.org/lts/package/cuda-helper)
-[![Stackage Nightly](https://stackage.org/package/cuda-helper/badge/nightly)](https://stackage.org/nightly/package/cuda-helper)
-[![Hackage](https://img.shields.io/hackage/v/cuda-helper.svg)](https://hackage.haskell.org/package/cuda-helper)
+[![Travis build status](https://img.shields.io/travis/tmcdonell/cuda-config/master.svg?label=linux)](https://travis-ci.org/tmcdonell/cuda-config)
+[![Stackage LTS](https://stackage.org/package/cuda-config/badge/lts)](https://stackage.org/lts/package/cuda-config)
+[![Stackage Nightly](https://stackage.org/package/cuda-config/badge/nightly)](https://stackage.org/nightly/package/cuda-config)
+[![Hackage](https://img.shields.io/hackage/v/cuda-config.svg)](https://hackage.haskell.org/package/cuda-config)
 
 Determine the installation location of CUDA and generate appropriate
 configuration options for Cabal.
