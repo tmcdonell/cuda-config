@@ -27,7 +27,7 @@ library
 
   build-depends:
       base              >= 4.7 && < 5
-    , Cabal             >= 1.24
+    , Cabal
     , directory         >= 1.0
     , filepath          >= 1.0
 
