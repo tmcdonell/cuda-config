@@ -36,6 +36,7 @@ import Distribution.PackageDescription.Parsec
 import Distribution.PackageDescription.Parse
 #endif
 
+import Control.Applicative
 import Control.Exception
 import Control.Monad
 import Data.Function
