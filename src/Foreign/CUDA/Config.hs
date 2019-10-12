@@ -203,6 +203,6 @@ class PostFindProgram a where
 instance PostFindProgram (Maybe (FilePath, [FilePath])) where -- Cabal >= 1.24
   postFindProgram = fmap fst
 
-instance PostFindProgram FilePath where -- Cabal < 1.24
-  postFindProgram = Just
+instance PostFindProgram (Maybe FilePath) where -- Cabal < 1.24
+  postFindProgram = id
 
