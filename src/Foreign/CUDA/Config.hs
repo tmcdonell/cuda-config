@@ -626,6 +626,15 @@ versionBranch = versionNumbers
 #endif
 
 #if !MIN_VERSION_Cabal(2,0,0)
+mkVersion :: [Int] -> Version
+mkVersion xs = Version xs []
+
+autogenComponentModulesDir :: LocalBuildInfo -> ComponentLocalBuildInfo -> String
+autogenComponentModulesDir lbi clbi = componentBuildDir lbi clbi </> "autogen"
+
+componentBuildDir :: LocalBuildInfo -> ComponentLocalBuildInfo -> String
+componentBuildDir lbi clbi = buildDir lbi -- </> other stuff depending on the component name
+
 die' :: Verbosity -> String -> IO a
 die' _ = die
 #endif
